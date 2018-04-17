@@ -1,0 +1,8 @@
+{
+  "name": "coala-bears",
+  "version": "0.8.0",
+  "dependencies": {
+    "alex": "~3",
+    "elm": "~0.18"
+  }
+}
