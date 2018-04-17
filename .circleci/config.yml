@@ -38,6 +38,7 @@ jobs:
                   nvm install 6.10.2
                   nvm alias default node
                   echo 'source $NVM_DIR/nvm.sh' >> $BASH_ENV
+                  echo 'export PATH=$HOME/elm-format-0.18:$PATH' >> $BASH_ENV
                   echo 'export PATH=$HOME/project/node_modules/.bin:$PATH' >> $BASH_ENV
 
             - run:
